@@ -2,7 +2,7 @@ import React from 'react'
 
 const OrganizationIdPage = () => {
   return (
-    <div>page</div>
+    <div>organization page</div>
   )
 }
 

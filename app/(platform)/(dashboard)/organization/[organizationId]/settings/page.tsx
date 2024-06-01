@@ -9,12 +9,13 @@ const SettingsPage = () => {
           elements: {
             rootBox: {
               boxShadow: "none",
-              width: "100%",
+              width: "100%"
             },
             cardBox: {
               border: "1px solid #e5e5e5",
               boxShadow: "none",
               width: "100%",
+              height: "100%"
             },
           },
         }}

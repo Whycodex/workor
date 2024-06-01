@@ -1,14 +1,13 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 
+import Image from "next/image";
 import { Activity, CreditCard, Layout, Settings } from "lucide-react";
+import { usePathname, useRouter } from "next/navigation";
 
 import { cn } from "@/lib/utils";
-import { AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { usePathname, useRouter } from "next/navigation";
-import { AccordionContent } from "@radix-ui/react-accordion";
+import { AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 
 export type Organization = {

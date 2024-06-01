@@ -7,7 +7,11 @@ import { Activity, CreditCard, Layout, Settings } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 
 import { cn } from "@/lib/utils";
-import { AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 
@@ -104,12 +108,12 @@ export const NavItem = ({
 };
 
 NavItem.Skeleton = function SkeletonNavItem() {
-    return (
-        <div className="flex items-center gap-x-2">
-            <div className="w-10 h-10 relative shrink-0">
-                <Skeleton className="h-full w-full absolute"/>
-            </div>
-            <Skeleton className="h-10 w-full"/>
-        </div>
-    )
-}
+  return (
+    <div className="flex items-center gap-x-2">
+      <div className="w-10 h-10 relative shrink-0">
+        <Skeleton className="h-full w-full absolute" />
+      </div>
+      <Skeleton className="h-10 w-full" />
+    </div>
+  );
+};

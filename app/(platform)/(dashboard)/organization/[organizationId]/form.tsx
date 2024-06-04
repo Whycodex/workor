@@ -3,8 +3,8 @@
 import React from "react";
 
 import { createBoard } from "@/actions/create-board";
-import { FormInput } from "@/components/form/form-input";
 import { useAction } from "@/hooks/use-action";
+import { FormInput } from "@/components/form/form-input";
 import { FormSubmit } from "@/components/form/form-submit";
 
 export const Form = () => {

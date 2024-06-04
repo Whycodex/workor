@@ -1,10 +1,12 @@
 "use client";
 
-import { Skeleton } from "@/components/ui/skeleton";
-import { useOrganization } from "@clerk/nextjs";
+import React from "react";
+
 import { CreditCard } from "lucide-react";
 import Image from "next/image";
-import React from "react";
+import { useOrganization } from "@clerk/nextjs";
+
+import { Skeleton } from "@/components/ui/skeleton";
 
 export const Info = () => {
   const { organization, isLoaded } = useOrganization();

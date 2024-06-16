@@ -2,7 +2,7 @@
 
 import React, { ElementRef, useRef } from "react";
 
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { X } from "lucide-react";
 import { toast } from "sonner";
 

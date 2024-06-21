@@ -1,9 +1,9 @@
 import React from "react";
 
+import Link from "next/link";
+import { redirect } from "next/navigation";
 import { HelpCircle, User2 } from "lucide-react";
 import { auth } from "@clerk/nextjs/server";
-import { redirect } from "next/navigation";
-import Link from "next/link";
 
 import { Hint } from "@/components/hint";
 import { FormPopover } from "@/components/form/form-popover";
